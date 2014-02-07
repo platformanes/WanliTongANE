@@ -1,0 +1,1 @@
+"D:\flashbuilder\Adobe Flash Builder 4.6\sdks\AIR3.5\bin\ADT"  -package -target apk-captive-runtime -storetype pkcs12 -keystore a.p12 -storepass 1234 wanli.apk androidWanliSample-app.xml androidWanliSample.swf  frame_api_meta.xsd frame_api_meta.xml pag_assets -extdir .

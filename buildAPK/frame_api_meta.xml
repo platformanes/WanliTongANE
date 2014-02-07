@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<api-metas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="frame_api_meta.xsd" type="sb" method="POST_FORM"
+	debug="true">
+
+	<api name="WanLiTongValidateImageRequest" description="Gets validate code image for wanlitong.">
+		<url type="prod">http://www.wanlitong.com/paic/common/vcode.do</url>
+		<url type="p1">http://lpms-cust-p1.dmzstg.pingan.com.cn:5080/paic/common/vcode.do</url>
+		<url type="stg">http://lpms-cust-stg.dmzstg.pingan.com.cn:6080/paic/common/vcode.do</url>
+	</api>
+
+	<api name="WanLiTongLoginRequest" description="Login for wanlitong.">
+		<url type="prod">http://www.wanlitong.com/mobileapi/wltLogin.do</url>
+		<url type="p1">http://lpms-cust-p1.dmzstg.pingan.com.cn:5080/mobileapi/wltLogin.do</url>
+		<url type="stg">http://lpms-cust-stg.dmzstg.pingan.com.cn:6080/mobileapi/wltLogin.do</url>
+	</api>
+
+	<api name="WanLiTongCheckUserRequest" description="Check is registed wanlitong.">
+		<url type="prod">http://www.wanlitong.com/wltregist/checkRegWltId.do</url>
+		<url type="p1">http://lpms-cust-p1.dmzstg.pingan.com.cn:5080/wltregist/checkRegWltId.do</url>
+		<url type="stg">http://lpms-cust-stg.dmzstg.pingan.com.cn:6080/wltregist/checkRegWltId.do</url>
+	</api>
+
+	<api name="WanLiTongRegistrationSmsRequest" description="Send sms for wanlitong registration.">
+		<url type="prod">http://www.wanlitong.com/sendSMS/sendSMS.do</url>
+		<url type="p1">http://lpms-cust-p1.dmzstg.pingan.com.cn:5080/sendSMS/sendSMS.do</url>
+		<url type="stg">http://lpms-cust-stg.dmzstg.pingan.com.cn:6080/sendSMS/sendSMS.do</url>
+	</api>
+	
+	<api name="WanLiTongRegistrationRequest" description="Wanlitong registration.">
+		<url type="prod">http://www.wanlitong.com/wltregist/registservice.do</url>
+		<url type="p1">http://lpms-cust-p1.dmzstg.pingan.com.cn:5080/wltregist/registservice.do</url>
+		<url type="stg">http://lpms-cust-stg.dmzstg.pingan.com.cn:6080/wltregist/registservice.do</url>
+	</api>
+	
+	<api name="WanLiTongSmsCodeRequest" description="Gets wanlitong sms code.">
+		<url type="prod">http://www.wanlitong.com/mobileapi/smsCode/getSmsCode.do</url>
+		<url type="p1">http://lpms-cust-p1.dmzstg.pingan.com.cn:5080/mobileapi/smsCode/getSmsCode.do</url>
+		<url type="stg">http://lpms-cust-stg.dmzstg.pingan.com.cn:6080/mobileapi/smsCode/getSmsCode.do</url>
+	</api>
+	
+	<api name="YiZhangTongValidateImageRequest" description="Gets validate code image for yizhangtong.">
+		<url type="prod">https://member.pingan.com.cn/pinganone/pa/paic/common/urlvcode.do</url>
+		<url type="p1">https://test-member.pingan.com.cn/pinganone/pa/paic/common/urlvcode.do</url>
+	</api>
+	
+	<api name="YiZhangTongServerTimeRequest" description="Gets server time for yizhangtong.">
+		<url type="prod">http://www.wanlitong.com/mobileapi/getServerTime.do</url>
+		<url type="p1">http://lpms-cust-p1.dmzstg.pingan.com.cn:5080/mobileapi/getServerTime.do</url>
+		<url type="stg">http://lpms-cust-stg.dmzstg.pingan.com.cn:6080/mobileapi/getServerTime.do</url>
+	</api>
+	
+	<api name="YiZhangTongSignatureRequest" description="Gets signature for yizhangtong.">
+		<url type="prod">http://www.wanlitong.com/mobileapi/toasign.do</url>
+		<url type="p1">http://lpms-cust-p1.dmzstg.pingan.com.cn:5080/mobileapi/toasign.do</url>
+		<url type="stg">http://lpms-cust-stg.dmzstg.pingan.com.cn:6080/mobileapi/toasign.do</url>
+	</api>
+	
+	<api name="YiZhangTongLoginRequest" description="Login for yizhangtong.">
+		<url type="prod">https://member.pingan.com.cn/pinganone/pa/appLogin.view</url>
+		<url type="p1">https://test-member.pingan.com.cn:443/pinganone/pa/appLogin.view</url>
+	</api>
+	
+	<api name="YiZhangTongLoginCallbackRequest" description="Login callback for yizhangtong.">
+		<url type="prod">http://www.wanlitong.com/mobileapi/toaLoginCallback.do</url>
+		<url type="p1">http://lpms-cust-p1.dmzstg.pingan.com.cn:5080/mobileapi/toaLoginCallback.do</url>
+		<url type="stg">http://lpms-cust-stg.dmzstg.pingan.com.cn:6080/mobileapi/toaLoginCallback.do</url>
+	</api>
+	
+	<api name="GameHallUrl" description="url for game hall.">
+		<url type="p1">http://game-wap-wlt.stg2.24money.com/</url>
+		<url type="stg">http://game-wap-wlt.stg2.24money.com/</url>
+		<url type="sb">http://game4-gateway-wlt-sanbox.stg2.24money.com/</url>
+		<url type="dev">http://game5-wap-wlt.stg2.24money.com/</url>
+		<url type="local">file:///android_asset/gamehall.html</url>
+	</api>
+	
+	<api name="GameValidateImageRequest" description="game validate image for game center.">
+		<url type="stg">http://game-wap-wlt.stg2.24money.com/?act=wltlogin&amp;st=vcode</url>
+		<url type="sb">http://game4-gateway-wlt-sanbox.stg2.24money.com/?act=wltlogin&amp;st=vcode</url>
+		<url type="dev">http://game5-wap-wlt.stg2.24money.com/?act=wltlogin&amp;st=vcode</url>
+	</api>
+	
+	<api name="GameWanLiTongLoginRequest" description="Wanlitong login for game center.">
+		<url type="p1">http://game-wap-wlt.stg2.24money.com/?act=ucenter&amp;st=wltLogin</url>
+		<url type="stg">http://game-wap-wlt.stg2.24money.com/?act=ucenter&amp;st=wltLogin</url>
+		<url type="sb">http://game4-gateway-wlt-sanbox.stg2.24money.com/?act=ucenter&amp;st=wltLogin</url>
+		<url type="dev">http://game5-wap-wlt.stg2.24money.com/?act=ucenter&amp;st=wltLogin</url>
+	</api>
+	
+	<api name="GameWanLiTongLogin2Request" description="new wanlitong login for game center.">
+		<url type="stg">http://game-wap-wlt.stg2.24money.com/?act=wltlogin&amp;st=get_login_info</url>
+		<url type="sb">http://game4-gateway-wlt-sanbox.stg2.24money.com/?act=wltlogin&amp;st=get_login_info</url>
+		<url type="dev">http://game5-wap-wlt.stg2.24money.com/?act=wltlogin&amp;st=get_login_info</url>
+	</api>
+	
+	<api name="GameYiZhangTongLoginRequest" description="Yizhangtong login for game center.">
+		<url type="p1">http://game-wap-wlt.stg2.24money.com/?act=toalogin&amp;st=toaLogin</url>
+		<url type="stg">http://game-wap-wlt.stg2.24money.com/?act=toalogin&amp;st=toaLogin</url>
+		<url type="sb">http://game4-gateway-wlt-sanbox.stg2.24money.com/?act=toalogin&amp;st=toaLogin</url>
+		<url type="dev">http://game5-wap-wlt.stg2.24money.com/?act=toalogin&amp;st=toaLogin</url>
+	</api>
+	
+	<api name="GameRegistrationRequest" description="registration for game center.">
+		<url type="p1">http://game-wap-wlt.stg2.24money.com/?act=ucenter&amp;st=wltRegister</url>
+		<url type="stg">http://game-wap-wlt.stg2.24money.com/?act=ucenter&amp;st=wltRegister</url>
+		<url type="sb">http://game4-gateway-wlt-sanbox.stg2.24money.com/?act=ucenter&amp;st=wltRegister</url>
+		<url type="dev">http://game5-wap-wlt.stg2.24money.com/?act=ucenter&amp;st=wltRegister</url>
+	</api>
+	
+	<api name="GameRechargeInpouringRequest" description="recharge for game center.">
+		<url type="p1">http://game-wap-wlt.stg2.24money.com/?act=pay&amp;st=create_inpour</url>
+		<url type="stg">http://game-wap-wlt.stg2.24money.com/?act=pay&amp;st=create_inpour</url>
+		<url type="sb">http://game4-gateway-wlt-sanbox.stg2.24money.com/?act=pay&amp;st=create_inpour</url>
+		<url type="dev">http://game5-wap-wlt.stg2.24money.com/?act=pay&amp;st=create_inpour</url>
+	</api>
+	
+	<api name="GameFileUploadRequest" method="MULTI_ENTITY" description="upload file for game center.">
+		<url type="p1">http://game-wap-wlt.stg2.24money.com/?act=ucenter&amp;st=upload_avatar</url>
+		<url type="stg">http://game-wap-wlt.stg2.24money.com/?act=ucenter&amp;st=upload_avatar</url>
+		<url type="sb">http://game4-gateway-wlt-sanbox.stg2.24money.com/?act=ucenter&amp;st=upload_avatar</url>
+		<url type="dev">http://game5-wap-wlt.stg2.24money.com/?act=ucenter&amp;st=upload_avatar</url>
+	</api>
+	
+	<api name="GameExchangeInfoRequest" description="game exchange info for game center.">
+		<url type="p1">http://game-wap-wlt.stg2.24money.com/?act=exchange&amp;st=show_exchange</url>
+		<url type="stg">http://game-wap-wlt.stg2.24money.com/?act=exchange&amp;st=show_exchange</url>
+		<url type="sb">http://game4-gateway-wlt-sanbox.stg2.24money.com/?act=exchange&amp;st=show_exchange</url>
+		<url type="dev">http://game5-wap-wlt.stg2.24money.com/?act=exchange&amp;st=show_exchange</url>
+	</api>
+	
+	<api name="GameExchangeRateRequest" description="exchange rate for game center.">
+		<url type="p1">http://game-wap-wlt.stg2.24money.com/?act=gamepay&amp;st=getExchangeRate</url>
+		<url type="stg">http://game-wap-wlt.stg2.24money.com/?act=gamepay&amp;st=getExchangeRate</url>
+		<url type="sb">http://game4-gateway-wlt-sanbox.stg2.24money.com/?act=gamepay&amp;st=getExchangeRate</url>
+		<url type="dev">http://game5-wap-wlt.stg2.24money.com/?act=gamepay&amp;st=getExchangeRate</url>
+	</api>
+	
+	<api name="GameExchangeRequest" description="exchange for game center.">
+		<url type="p1">http://game-wap-wlt.stg2.24money.com/?act=exchange&amp;st=do_exchange</url>
+		<url type="stg">http://game-wap-wlt.stg2.24money.com/?act=exchange&amp;st=do_exchange</url>
+		<url type="sb">http://game4-gateway-wlt-sanbox.stg2.24money.com/?act=exchange&amp;st=do_exchange</url>
+		<url type="dev">http://game5-wap-wlt.stg2.24money.com/?act=exchange&amp;st=do_exchange</url>
+	</api>
+	
+	<api name="GameLoginLogRequest" description="login log for game center.">
+		<url type="p1">http://game-wap-wlt.stg2.24money.com/?act=game&amp;st=gameLoginLog</url>
+		<url type="stg">http://game-wap-wlt.stg2.24money.com/?act=game&amp;st=gameLoginLog</url>
+		<url type="sb">http://game4-gateway-wlt-sanbox.stg2.24money.com/?act=game&amp;st=gameLoginLog</url>
+		<url type="dev">http://game5-wap-wlt.stg2.24money.com/?act=game&amp;st=gameLoginLog</url>
+	</api>
+	
+	<api name="GameUpdateLoginLogRequest" description="update login log for game center.">
+		<url type="p1">http://game-wap-wlt.stg2.24money.com/?act=game&amp;st=updateGameLoginLog</url>
+		<url type="stg">http://game-wap-wlt.stg2.24money.com/?act=game&amp;st=updateGameLoginLog</url>
+		<url type="sb">http://game4-gateway-wlt-sanbox.stg2.24money.com/?act=game&amp;st=updateGameLoginLog</url>
+		<url type="dev">http://game5-wap-wlt.stg2.24money.com/?act=game&amp;st=updateGameLoginLog</url>
+	</api>
+	
+	<api name="GamePayInfoRequest" description="pay info for game center.">
+		<url type="p1">http://game-wap-wlt.stg2.24money.com/?act=gamepay&amp;st=getPayInfo</url>
+		<url type="stg">http://game-wap-wlt.stg2.24money.com/?act=gamepay&amp;st=getPayInfo</url>
+		<url type="sb">http://game4-gateway-wlt-sanbox.stg2.24money.com/?act=gamepay&amp;st=getPayInfo</url>
+		<url type="dev">http://game5-wap-wlt.stg2.24money.com/?act=gamepay&amp;st=getPayInfo</url>
+	</api>
+	
+	<api name="GamePayRequest" description="pay for game center.">
+		<url type="p1">http://game-wap-wlt.stg2.24money.com/?act=gamepay&amp;st=createOrder</url>
+		<url type="stg">http://game-wap-wlt.stg2.24money.com/?act=gamepay&amp;st=createOrder</url>
+		<url type="sb">http://game4-gateway-wlt-sanbox.stg2.24money.com/?act=gamepay&amp;st=createOrder</url>
+		<url type="dev">http://game5-wap-wlt.stg2.24money.com/?act=gamepay&amp;st=createOrder</url>
+	</api>
+	
+	<api name="GameAlipayNotifyUrl" description="url for alipay notify.">
+		<url type="p1">http://game-wap-wlt.stg2.24money.com/?act=pay&amp;st=ali_notify</url>
+		<url type="stg">http://game-wap-wlt.stg2.24money.com/?act=pay&amp;st=ali_notify</url>
+		<url type="sb">http://game4-gateway-wlt-sanbox.stg2.24money.com/?act=pay&amp;st=ali_notify</url>
+		<url type="dev">http://game5-wap-wlt.stg2.24money.com/?act=pay&amp;st=ali_notify</url>
+	</api>
+	
+	<api name="CaipiaoLogin" method="GET" description="login for caipiao.">
+		<url type="prod">http://cp.wanlitong.com/?act=index&amp;st=nativeLogin</url>
+		<url type="p1">http://cp2.stg2.24money.com/?act=index&amp;st=nativeLogin</url>
+	</api>
+	
+	<api name="CaipiaoIndex" method="GET" description="index of caipiao.">
+		<url type="prod">http://cp.wanlitong.com/?act=lottery&amp;from=native&amp;source=youxi_app_a&amp;track=yx</url>
+		<url type="p1">http://cp2.stg2.24money.com/?act=lottery&amp;from=native&amp;source=youxi_app_a&amp;track=yx</url>
+	</api>
+
+</api-metas>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:attribute name="type" type="xs:string" />
+	<xs:attribute name="name" type="xs:string" />
+	<xs:attribute name="method">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="POST_FORM" />
+				<xs:enumeration value="POST_STRING" />
+				<xs:enumeration value="MULTI_ENTITY" />
+				<xs:enumeration value="GET" />
+				<xs:enumeration value="PUT" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:attribute>
+	<xs:attribute name="debug" type="xs:boolean" />
+	<xs:attribute name="description" type="xs:string" />
+
+	<xs:element name="url">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute ref="type" use="required" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="api">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="url" maxOccurs="unbounded" />
+			</xs:sequence>
+			<xs:attribute ref="name" use="required" />
+			<xs:attribute ref="method" />
+			<xs:attribute ref="description" />
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="api-metas">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="api" maxOccurs="unbounded" />
+			</xs:sequence>
+			<xs:attribute ref="debug" />
+			<xs:attribute ref="type" use="required" />
+			<xs:attribute ref="method" use="required" />
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>
