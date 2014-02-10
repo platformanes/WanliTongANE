@@ -14,6 +14,10 @@ WanliTongANE
 ## 打包ANE过程
 * 参照`BuildANE`文件夹下的命令行
 
+## 打包APK
+* 参照`BuildAPK`
+* 把`org`文件夹放入APK根目录
+
 ## DEMO和参数配置
 * 参照`aneTest`文件夹下的源码 和 APK文件
 
